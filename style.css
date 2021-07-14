@@ -43,7 +43,7 @@ body {
   .buttonsmain {
     position: fixed;
     display: flex;  
-    top: calc(30% + 115px);
+    top: calc(30% + 120px);
     left: 23%;
     transform: translateX(-50%);
   }
