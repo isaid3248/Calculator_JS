@@ -1,0 +1,148 @@
+.screen {
+    position: fixed;
+    top: 30%;
+    left: 23%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 400px;
+    height: 120px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: dodgerblue;
+    font-size: 7rem;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .screen3 {
+    position: fixed;
+    top: 45%;
+    left: 78%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 400px;
+    height: 120px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: dodgerblue;
+    font-size: 7rem;
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  .buttonsmain {
+    position: fixed;
+    display: flex;  
+    top: calc(30% + 120px);
+    left: 23%;
+    transform: translateX(-50%);
+  }
+
+  .buttons1 {
+    position: fixed;
+    display: flex;  
+    top: 32%;
+    left: 43%;
+    transform: translateX(-50%);
+  }
+  
+  .buttons2 {
+    position: fixed;
+    display: flex;  
+    top: 61%;
+    left: 43%;
+    transform: translateX(-50%);
+  }
+
+  .screen2 {
+    position: fixed;
+    top: 59%;
+    left: 23%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 400px;
+    height: 120px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: dodgerblue;
+    font-size: 7rem;
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 2rem;
+    margin: 20px;
+    color: white;
+    opacity: 0.5;
+    transition: all 0.3s ease-out;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .negative {
+    background: red;
+  }
+  
+  .positive {
+    background: limegreen;
+  }
+
+  .duplicate {
+    background: dodgerblue;
+    font-size: 1.5rem;
+  }
+
+  .divide {
+    background: rgb(212, 212, 0);
+  }
+
+  #esit {
+    position: fixed;
+    display: flex;  
+    align-items:center;
+    top: 49%;
+    justify-content: center;    
+    left: 56%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 20%;
+    font-size: 25rem;
+    color:black;
+    margin: 0px;
+    max-height: 50px;
+  }
+
+  
+
+  .positive1 {
+    background: limegreen;
+  }
+  .positive2 {
+    background: limegreen;
+  }
+
+  .negative1 {
+    background: red;
+  }
+  .negative2 {
+    background: red;
+  }
